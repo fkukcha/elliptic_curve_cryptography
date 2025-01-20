@@ -1,4 +1,8 @@
-# Done
+"""
+This script demonstrates the difference in key sizes between RSA and ECC.
+It generates a 2048-bit RSA key pair and a 256-bit ECC key pair and compares their sizes.
+"""
+
 from cryptography.hazmat.primitives.asymmetric import rsa, ec
 from cryptography.hazmat.primitives import serialization
 

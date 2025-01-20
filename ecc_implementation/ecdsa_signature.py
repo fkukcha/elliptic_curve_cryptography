@@ -1,6 +1,8 @@
-# Done
-# 1. Elliptic Curve Digital Signature Algorithm (ECDSA)
-# This code demonstrates how to generate an ECC key pair, sign a message using ECDSA, and verify the signature.
+"""
+This script demonstrates how to generate an Elliptic Curve Digital Signature Algorithm (ECDSA) signature using the
+cryptography library. It generates an ECC key pair, signs a message, and verifies the signature.
+"""
+
 from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives import hashes
 

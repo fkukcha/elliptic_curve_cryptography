@@ -1,6 +1,8 @@
-# Done
-# 4. Performance Comparison
-# This code compares the performance of ECC with RSA in terms of key generation, signing and verification times.
+"""
+This script compares the performance of RSA and ECC in terms of key generation, signing and verification.
+It generates a 2048-bit RSA key pair and a secp256r1 ECC key pair, signs a message with each key pair, and verifies the
+signatures.
+"""
 
 import time
 from cryptography.hazmat.primitives.asymmetric import rsa, ec, padding

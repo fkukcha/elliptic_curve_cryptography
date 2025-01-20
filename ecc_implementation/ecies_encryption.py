@@ -1,6 +1,8 @@
-# Done
-# 3. Elliptic Curve Integrated Encryption Scheme (ECIES)
-# This code demonstrates how ECC can be used for secure encryption and decryption of messages.
+"""
+Elliptic Curve Integrated Encryption Scheme (ECIES) implementation using the cryptography library.
+This code demonstrates the generation of an ECC key pair, encryption of a message, and decryption of the message.
+"""
+
 from cryptography.hazmat.primitives.asymmetric import ec
 from cryptography.hazmat.primitives.kdf.hkdf import HKDF
 from cryptography.hazmat.primitives import hashes

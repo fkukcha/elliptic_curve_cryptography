@@ -1,6 +1,8 @@
-# Done
-# 6. Elliptic Curve Variants
-# This code demonstrates the generation of ECC keys for different elliptic curve types and compares their properties.
+"""
+Elliptic Curve Variants.
+This script demonstrates the generation of ECC key pairs for different elliptic curve types using the cryptography
+library. It generates keys for the secp256r1, secp256k1, and Ed25519 elliptic curves and serializes them to PEM format.
+"""
 
 from cryptography.hazmat.primitives.asymmetric import ec, ed25519
 from cryptography.hazmat.primitives import serialization

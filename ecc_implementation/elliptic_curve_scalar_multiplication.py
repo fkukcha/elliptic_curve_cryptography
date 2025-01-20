@@ -1,4 +1,8 @@
-# Done
+"""
+Elliptic Curve Scalar Multiplication.
+This script demonstrates the scalar multiplication operation on an elliptic curve.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

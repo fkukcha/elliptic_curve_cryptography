@@ -1,4 +1,8 @@
-# Done
+"""
+Elliptic Curve Point Addition with Reflection.
+This script demonstrates the point addition operation on an elliptic curve and the reflection of the resulting point.
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 

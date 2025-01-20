@@ -1,6 +1,7 @@
-# Should be integrated in TeXStudio
-# 5. Elliptic Curve Cryptography in Blockchain
-# This code demonstrates the use of ECC in blockchain technologies by generating a Bitcoin address.
+"""
+This script demonstrates how to generate a Bitcoin address from an ECC public key.
+It uses the secp256k1 elliptic curve and the Bitcoin address generation process.
+"""
 
 import hashlib
 import base58
